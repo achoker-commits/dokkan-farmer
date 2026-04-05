@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#1A1A2E">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dokkan Farmer"
+        android:textSize="28sp"
+        android:textColor="#F5A623"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bot de farming mode histoire"
+        android:textSize="14sp"
+        android:textColor="#AAAAAA"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Statut des permissions -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vérification..."
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:background="#2D2D44"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Étape 1 -->
+    <Button
+        android:id="@+id/btnAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Étape 1 — Activer le service accessibilité"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Étape 2 -->
+    <Button
+        android:id="@+id/btnOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Étape 2 — Autoriser l'overlay"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Lancer -->
+    <Button
+        android:id="@+id/btnLaunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="▶  Lancer le bot + ouvrir Dokkan"
+        android:backgroundTint="#F5A623"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Le bouton vert apparaît dans Dokkan.\nAppuie sur FARM pour démarrer, STOP pour arrêter.\nTu peux le déplacer en le faisant glisser."
+        android:textSize="12sp"
+        android:textColor="#888888"
+        android:gravity="center"/>
+
+</LinearLayout>

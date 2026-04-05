@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dokkan Farmer</string>
+    <string name="accessibility_service_label">Dokkan Farmer Bot</string>
+    <string name="accessibility_service_description">Permet au bot de taper automatiquement sur l\'écran dans Dokkan Battle pour farmer des pierres.</string>
+</resources>
